@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.9, 3.10, 3.11]  # 👈 this runs the job 3 times!
+        python-version: ['3.9', '3.10', '3.11']  # 👈 this runs the job 3 times!
 
     steps:
       - name: Checkout repo
